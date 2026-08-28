@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: Business-facing customer dimension.
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    description: Business-facing product dimension.
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_order_revenue
+    description: Revenue summarized at the order level.
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_product_revenue
+    description: Product-level unit and revenue metrics.
+
+  - name: fct_customer_revenue
+    description: Customer-level order count and total revenue.
+
+  - name: fct_monthly_revenue
+    description: Monthly order count and revenue.

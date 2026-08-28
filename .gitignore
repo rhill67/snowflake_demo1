@@ -1,0 +1,82 @@
+# ==========================================
+# Python
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================================
+# dbt
+# ==========================================
+target/
+dbt/target/
+dbt_packages/
+dbt/dbt_packages/
+logs/
+dbt/logs/
+
+# dbt user/config files containing credentials
+profiles.yml
+dbt/profiles.yml
+
+# ==========================================
+# Environment variables / secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Snowflake / credentials
+# ==========================================
+*.pem
+*.p8
+*.key
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Testing / caches
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Temporary files
+# ==========================================
+*.log
+*.tmp
+*.temp
+.cache/
+
+# nohup output
+nohup.out
+**/nohup.out

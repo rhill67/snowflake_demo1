@@ -1,0 +1,22 @@
+name: 'lennar_demo'
+version: '1.0.0'
+config-version: 2
+
+profile: 'lennar_demo'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  lennar_demo:
+    staging:
+      +schema: DBT_STAGING
+      +materialized: view
+    marts:
+      +schema: DBT_MARTS
+      +materialized: view

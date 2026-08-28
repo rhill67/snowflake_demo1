@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: LENNAR_DEMO
+    schema: BRONZE
+    tables:
+      - name: customers
+      - name: products
+      - name: orders
+      - name: sales

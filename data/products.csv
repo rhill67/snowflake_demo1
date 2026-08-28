@@ -1,0 +1,6 @@
+product_id,product_name,category,price,active
+101,Laptop Pro,Electronics,1299.00,true
+102,Office Chair,Furniture,349.00,true
+103,Wireless Mouse,Electronics,49.99,true
+104,Standing Desk,Furniture,699.00,true
+105,Monitor 27,Electronics,399.00,true
