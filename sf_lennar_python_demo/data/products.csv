@@ -1,0 +1,4 @@
+product_id,product_name,category,price,active
+1,Product_001,Display,2378.58,True
+2,Product_002,Laptop,1499.99,True
+22,Product_022,Network,861.84,True

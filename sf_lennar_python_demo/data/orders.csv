@@ -1,0 +1,5 @@
+order_id,customer_id,order_date,status
+1000,80,2024-02-11,PAID
+1001,1,2024-03-26,NEW
+1002,2,2024-03-30,SHIPPED
+1027,3,2024-04-05,PAID
